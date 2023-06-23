@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SheRising</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="icon" href="sheicon.svg" type="image/x-icon">
+    
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="nav-background">
+            <div class="mobile-logo">
+                <img src="./icons/logonew.svg" alt="">
+            </div>
+            <div class="mobile-nav">
+                <div class="nav-top">
+                    <ul>
+                        <li>
+                            <a href="#Home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#About">About us</a>
+                        </li>
+                        <li>
+                            <a href="#Our">Our Sheroes</a>
+                        </li>
+                        <li>
+                            <a href="#Laws">Laws and Helpline</a>
+                        </li>
+                        <li>
+                            <a href="#Business">Business</a>
+                        </li>
+                        <li>
+                            <a href="#Health">Health</a>
+                        </li>
+                        <li>
+                            <a href="#Contact">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact flex items-center">
+                    <img src="./icons/phone.svg" alt="">
+                    <div>
+                        <h5>Call us: +91 7000XXXXX</h5>
+                        <h6>E-mail : support@sherising.com</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-content-wrapper">
+            <div class="nav-trigger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-bar-chart">
+                    <line x1="12" y1="20" x2="12" y2="10" />
+                    <line x1="18" y1="20" x2="18" y2="4" />
+                    <line x1="6" y1="20" x2="6" y2="16" /></svg>
+            </div>
+            <div class="site-content">
+                <header class="topbar">
+                    <div class="container flex justify-between items-center">
+                        <div class="icons">
+                            <a href="https://www.facebook.com/" target="blank"><img src="./icons/facebook.svg" alt=""></a>
+
+                            <a href="https://twitter.com/" target="blank"><img src="./icons/twitter.svg" alt=""></a>
+                        </div>
+                        <div>
+                            <marquee behavior="scroll" direction="left" scrollamount="10" width="1100px"> SEARCH. LEARN. GROW. EMPOWER. DONATE
+                            </marquee>
+                        </div>
+                        
+                     
+                    </div>
+                    
+                </header>
+
+                <nav>
+                    <div class="navbar magic-shadow">
+                        <div class="container flex justify-center">
+                            <span class="blink"><a href="file:///C:/Users/sihus/OneDrive/Desktop/SheRising/SheRising/new.html" target="blank"><img src="./images/four.png" height="60px" width="70px" ></a></span>
+                            <a href="#Home" class="active">Home</a>
+                            <a href="#About">About us</a>
+                            <a href="#Our">Our Sheroes</a>
+                            <a href="#Laws">Laws and helpline</a>
+                            <a href="#Business">Business</a>
+                            <a href="#Health">Health</a>
+                            <a href="#Contact">Contact Us</a>
+                        
+
+                            <form id="form" role="search"> 
+                                <input type="search" value="" id="search" onchange="openPage()">
+                                <button><img src="./icons/search.svg"></button>
+                                
+                            </form>
+                            <br><br><span class="blink"><a href="http://ncw.nic.in/contact-us" target="blank"><img src="./images/help.png" height="60px" width="70px" ></a></span>
+                            <script>
+
+                                function openPage()
+                                 {
+                                    var x = document.getElementById("search").value;
+                                    if(x == "home" || x=="Home"){
+                                    window.open("file:///C:/Users/sihus/OneDrive/Desktop/SheRising/SheRising/index.html?#Home");
+                                    }
+                                    if (x === "donate" || x=="Donate" || x == "charity" || x== "fund") {
+                                    window.open("https://rzp.io/l/bx7lO6LtHK");
+                                    }
+                                    if (x === "contact" || x=="Contact" || x == "call" || x== "email") {
+                                    window.open("file:///C:/Users/sihus/OneDrive/Desktop/SheRising/SheRising/index.html#Contact");
+                                    }
+                                    if (x === "inspire" || x == "sheroes" ) {
+                                    window.open("file:///C:/Users/sihus/OneDrive/Desktop/SheRising/SheRising/index.html?#Our");
+                                    }
+                                    if (x === "health" || x == "Health" ) {
+                                    window.open("file:///C:/Users/sihus/OneDrive/Desktop/SheRising/SheRising/index.html#Health");
+                                    }
+                                    if (x === "Business" || x=="business" || x=="startup") {
+                                    window.open("file:///C:/Users/sihus/OneDrive/Desktop/SheRising/SheRising/index.html#Business");
+                                    }
+                                    if (x === "about") {
+                                    window.open("file:///C:/Users/sihus/OneDrive/Desktop/SheRising/SheRising/index.html#About");
+                                    }
+                                    if (x === "laws" || x == "law" || x== "Law" || x=="Law") {
+                                    window.open("file:///C:/Users/sihus/OneDrive/Desktop/SheRising/SheRising/index.html#Laws");
+                                    }
+                                    if (x === "help" || x == "Help" || x== "Call" ||  x=="call") {
+                                    window.open("file:///C:/Users/sihus/OneDrive/Desktop/SheRising/SheRising/index.html#Laws");
+                                    }
+                                    else{
+                                        window.open("/action_page.php");
+
+                                    }
+                            
+                                }
+                            </script>
+                            
+
+                        </div>
+                    </div>
+                </nav>
+
+                <header class="hero flex items-center">
+                    <div class="container">
+                        <div class="welcome flex items-center">
+                            <div style="text-align: center"><img src="./images/logonew.png" width="500" /></div>
+                        </div>
+                        <h1 id="Home" ></h1>
+                        
+                    </div>
+                </header>
+                
+
+                <div class="cover">
+                   
+                    <div class="information">
+                        <a href="https://rzp.io/l/bx7lO6LtHK" target="blank"><button>DONATE FOR EDUCATION</button></a>
+                    </div>
+                </div>
+
+
+
+                <section class="about-pc">
+                    <div class="container">
+                        <h1 class="section-heading">About Us</h1>
+                        <div class="about-pc-wrap flex">
+                            <div class="flex-1">
+                                <img src="./images/women1.png" alt="">
+                            </div>
+                            <div class="flex-1">
+                                <h2 id="About"></h2>
+                                <p>We, at SheRising, believe in empowering our daughters by creating awareness amongst our people, especially the youth, about their rights and wish to bring a change in the darkest regions of our country.
+                                    SheRising is the one-stop platform for all the help that you need. 
+                                    SheRising aims to educate young girls and women about their rights and empower them. <br>
+                                    
+                                    <span><b><em>Health:</em></b></span>
+                                    This section provides women the details related to common health issues faced by women worldwide and the ways to counter them. <br>
+                                    <span><b><em>Help:</em></b></span>
+                                    This section aims to make women aware about the common helpline numbers important for their safety, as introduced by the Central and State governments in India.<br>
+                            
+                                    <span><b><em>Tips:</em></b></span>
+                                    This section provides tips to young women in business and education therby empowering our daughters for the greater good of the society.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="top-act">
+                    <div class="container">
+                        <h1 id ="Our" class="section-heading">Our Sheroes</h1>
+                        <div class="slider">
+                            <button class="slider-btn prev-btn"><img src="./icons/pre.svg" alt=""></button>
+                            <button class="slider-btn next-btn"><img src="./icons/next.svg" alt=""></button>
+                            <div class="event-slider">
+                                <div class="event-card magic-shadow-sm">
+                                    <div class="product-image flex items-center justify-center">
+                                        <img src="./images/laxmi.jpg" alt="">
+                                    </div>
+                                    <hr>
+                                    <div>
+                                    <a href="https://en.wikipedia.org/wiki/Laxmi_Agarwal" class="main4" target="blank"><h2 class="text-center">Laxmi Agarwal</h2></a>
+                                    </div>
+                                </div>
+                                <div class="event-card magic-shadow-sm">
+                                    <div class="product-image flex items-center justify-center">
+                                        <img src="./images/sunitha.jpeg" alt="">
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <a href="http://www.tipheroes.org/dr-sunitha-krishnan/" class="main5" target="blank"><h2 class="text-center">Sunitha Krishnan</h2></a>
+                                    </div>
+                                </div>
+                                <div class="event-card magic-shadow-sm">
+                                    <div class="product-image flex items-center justify-center">
+                                        <img src="./images/ruma.jpeg" alt="">
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <a href="https://rumadevi.com/" class="main6" target="blank"><h2 class="text-center">Ruma devi</h2></a>
+                                    </div>
+                                </div>
+                                <div class="event-card magic-shadow-sm">
+                                    <div class="product-image flex items-center justify-center">
+                                        <img src="./images/avani.jpg" alt="">
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <a href="https://timesofindia.indiatimes.com/india/avani-chaturvedi-to-be-first-iaf-woman-pilot-to-participate-in-aerial-war-games-abroad/articleshow/96818463.cms" class="main7" target="blank"><h2 class="text-center">Avani Chaturvedi</h2></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+             
+                <section class="our-services">
+                    <div class="container">
+                        <h1 id="Laws" class="section-heading">Laws and Helpline</h1>
+                        <div class="card-wrapper flex">
+                            <div class="service-card magic-shadow-sm">
+                                <div>
+                                    <img src="./icons/law.svg" alt="">
+                                </div>
+                                <h2>LAWS</h2>
+                                <p>
+                                    <ol>
+                                        <li><a href="http://ncw.nic.in/sites/default/files/THEIMMORALTRAFFIC%28PREVENTION%29ACT1956_2.pdf" target="blank">The Immoral Traffic (Prevention) Act, 1956</a></li><br>
+                                        <li><a href="http://ncw.nic.in/sites/default/files/THEDOWRYPROHIBITIONACT1961_0.pdf" target="blank">The Dowry Prohibition Act, 1961 (28 of 1961)</a> </li><br>
+                                        <li><a href="http://ncw.nic.in/sites/default/files/TheProtectionofWomenfromDomesticViolenceAct2005_0.pdf" target="blank">Protection of Women from Domestic Violence Act, 2005 </a></li><br>
+                                        <li><a href="http://ncw.nic.in/sites/default/files/SexualHarassmentofWomenatWorkPlaceAct2013_0.pdf" target="blank">The Sexual Harassment of Women at Workplace (PREVENTION, PROHIBITION and REDRESSAL) Act, 2013 </a></li><br>
+                                        <li><a href="http://ncw.nic.in/sites/default/files/TheIndecentRepresentationofWomenProhibitionAct1986_2.pdf" target="blank">The Indecent Representation of Women (Prohibition) Act, 1986 </a></li>
+
+                                    </ol> 
+                                </p>
+                            
+                            
+                            </div>
+                            <div class="service-card magic-shadow-sm">
+                                <div>
+                                    <img src="./icons/helpline.svg" alt="">
+                                </div>
+                                <h2 class="text-primary">HELPLINE NUMBERS</h2>
+                                <p>
+                                    <ol>
+                                        <li>National Commission for Women Helpline:<a href=“tel:7827170170”>7827170170</a></li><br>
+                                        <li>Central Social Welfare Board -Police Helpline:<a href=“tel:1091”>1091</a></li><br>
+                                        <li>Shakti Shalini:<a href=“tel:10920”>10920</a></li><br>
+                                        <li>Joint Women's Program:<a href=“tel:24619821”>24619821</a></li><br>
+                                        <li>Sakshi - violence intervention center:<a href=“tel:2562336”>2562336</a></li><br>
+        
+                                   </ol>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="latest-news">
+                    <div class="container">
+                        <h1 id="Business" class="section-heading">BUSINESS</h1>
+                        <div class="article-wrapper">
+                            <article class="card magic-shadow-sm">
+                                <div class="video">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ddyk3qHjBwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                                <div class="card-content">
+                                    <div class="post-meta flex items-center justify-between">
+                                        <span>May 28,2023</span>
+                                        <div>
+                                            <span>Posted by <strong>Curly Tales</strong></span>
+                                            <span class="comment-count">25 Comments</span>
+                                        </div>
+                                    </div>
+
+                                    <h2>Pune Woman Earns ₹1.5 Lakhs Per Month By Selling Salads From Home</h2>
+                                    <p>In 2017, Megha Bafna started the business of selling salads by investing ₹3500 and now she earns ₹1,50,000 per month. 
+                                        She also employs 7 underprivileged women. <br>Being a passionate mother & a loving wife, Megha also works with a real estate firm.With a plate full of <br><span id="dots">...</span>
+                                        <span id="more">responsibilities, Megha not only managed but succeeded in following her genuine passion for salad making. <br>
+                                            But the success did not come easy. Megha faced many challenges in the past 3 years but nothing could stop her.
+                                        </span></p>
+                                        <button class="btn btn-primary" onclick="myFunc()" id="myBtn">Read more</button>
+                                        <script>
+                                            function myFunc() {
+                                              var dots = document.getElementById("dots");
+                                              var moreText = document.getElementById("more");
+                                              var btnText = document.getElementById("myBtn");
+                                            
+                                              if (dots.style.display === "none") {
+                                                dots.style.display = "inline";
+                                                btnText.innerHTML = "Read more"; 
+                                                moreText.style.display = "none";
+                                              } else {
+                                                dots.style.display = "none";
+                                                btnText.innerHTML = "Read less"; 
+                                                moreText.style.display = "inline";
+                                              }
+                                            }
+                                            </script>
+                                </div>
+                            </article>
+                            <article class="card magic-shadow-sm">
+                                <div>
+                                    <img src="./images/freelancing.jpg" alt="" width="600px">
+                                </div>
+                                <div class="card-content">
+                                    <div class="post-meta flex items-center justify-between">
+                                        <span>June 24,2023</span>
+                                        <div>
+                                            <span>Posted by <strong>Upwork</strong></span>
+                                            <span class="comment-count">20 Comments</span>
+                                        </div>
+                                    </div>
+
+                                    <h2>Freelancing tips for women in 2023</h2>
+                                    <p>Freelancing offers an incredible opportunity to control the way that you work. As a freelancer, you have the freedom to work from anywhere, at any time.
+                                        Appealing perks like these are leading to the growth of the freelancing industry.  <span id="dots2">...</span><span id="more2">Freelancing offers the freedom of choice. 
+                                        There are many different paths to success for freelancers in 2023:
+                                        
+                                            1.Define your service & offering<br>
+                                            2.Find your target audience<br>
+                                            3.Develop a pricing structure<br>
+                                            4.Create your portfolio with past jobs<br>
+                                            5.Write a great proposal<br>
+                                            6.Continue developing your skills<br>
+    
+                                        </span></p>
+                                        <button class="btn btn-primary" onclick="myFunc2()" id="myBtn2">Read more</button>
+                                        <script>
+                                            function myFunc2() {
+                                              var dots = document.getElementById("dots2");
+                                              var moreText = document.getElementById("more2");
+                                              var btnText = document.getElementById("myBtn2");
+                                            
+                                              if (dots.style.display === "none") {
+                                                dots.style.display = "inline";
+                                                btnText.innerHTML = "Read more"; 
+                                                moreText.style.display = "none";
+                                              } else {
+                                                dots.style.display = "none";
+                                                btnText.innerHTML = "Read less"; 
+                                                moreText.style.display = "inline";
+                                              }
+                                            }
+                                            </script>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <section class="our-services2">
+                    <div class="container">
+                        <h1 id="Health" class="section-heading">HEALTH</h1>
+                        <div class="card-wrapper flex">
+                            <div class="service-card magic-shadow-sm">
+                                <div>
+                                    <img src="./icons/mental.svg" alt="">
+                                </div>
+                                <h2>MENTAL HEALTH</h2>
+                                <p>Mental health problems are more frequent in women than in men. <br>Prevalence, influencing and risk factors, symptomatology, <br>
+                                    and course of the disorder is different in women than in men. <br>For example, mood or anxiety disorders are <br>
+                                    more common in women but they are affected by <br>schizophrenic psychoses later in life. <br>
+                                    Premenstrual dysphoric disorder, and perimenopause-related depression <br>happen only to women.<br>
+                                    And certain mental disorders such as bipolar disorder <br>and schizophrenia though common to both men<br>
+                                    and women are experienced differently and <br>progress differently in women. <br>
+
+                                </p>
+
+                                <br><br><br><br><span><i>Ask for </i><a href="https://www.vogue.in/wellness/content/verified-mental-health-helplines-and-services-pan-india-suicide-helplines-therapists-counsellors" target="blank"> <img src="icons/help.svg"> </a></span>
+                                
+                            
+                            
+                            </div>
+                            <div class="service-card magic-shadow-sm">
+                                <div>
+                                    <img src="./icons/phy.svg" alt="">
+                                </div>
+                                <h2 class="text-primary">PHYSICAL</h2>
+                                <p>
+                                    Though worldwide the life expectancy of females at birth is more than men ,<br>68.2 years for men and 73.2 years for women, in India, <br>
+                                    however, the life expectancy for both sexes is the same, and yet, <br>there are many reasons as to why women die sooner due to negligence over the years.<br>
+                                    Women’s Health is linked to the status of women in society and<br> the culture that brews within this structure. <br>
+                                    
+                                    <ul>
+                                        <li><a href="https://my.clevelandclinic.org/health/diseases/17645-women--cardiovascular-disease" target="blank">Cardiovascular diseases and their symptoms</a></li><br>
+                                        <li><a href="https://www.cdc.gov/diabetes/library/features/diabetes-and-women.html" target="blank">Diabetes: Causes and symptoms</a> </li><br>
+                                        <li><a href="https://www.nhs.uk/conditions/osteoporosis/causes/#:~:text=Women%20are%20more%20at%20risk,rapid%20decrease%20in%20bone%20density." target="blank">Osteoporosis and bone health</a></li><br>
+                                        <li><a href="https://www.cdc.gov/cancer/breast/basic_info/symptoms.htm" target="blank">Breast Cancer-Prevention and awareness</a></li><br>
+                                        <li><a href="https://www.mayoclinic.org/diseases-conditions/pcos/symptoms-causes/syc-20353439" target="blank">Polycystic Ovary Syndrome(PCOS)</a></li>
+
+                                    </ul> 
+
+                                    <br>
+                                    <span><i>See a </i><a href="https://www.credihealth.com/doctors/india/women" target="blank"> <img src="icons/doc.svg"> </a></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                </section>
+
+
+                <section class="contact-us flex">
+                    <div class="contact-info-wrapper">
+                        <h1 id="Contact" class="section-heading">Contact us</h1>
+                        <div class="contact-info">
+                            <div>
+                                <div>
+                                    <img src="./icons/phone-2.svg" alt="">
+                                    <div>
+                                        <span>Call us:</span>
+                                        <span>+91 700XXXXX</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./icons/bag-2.svg" alt="">
+                                    <div>
+                                        <span>E-mail to join us:</span>
+                                        <span>support@sherising.com</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="wave2.gif" alt="Girl-wave" style="width:500px;height:500px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56056.268455404796!2d77.22412890301133!3d28.58426977664037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd2a432f1fa3%3A0xb60e857e8457c14a!2sNational%20Commission%20for%20Women!5e0!3m2!1sen!2sin!4v1687468780874!5m2!1sen!2sin" width="800" height="1000" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
+
+                <footer>
+                    
+                <footer class="copyright">
+                    <div>
+                        Copyright © 2023 .All rights reserved by SheRising and Shambhavi 
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

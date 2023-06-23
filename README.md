@@ -1,2 +1,2 @@
-# SheRising-Website-for-welfare-of-women
-SheRising is the one-stop platform for all the help that you need. SheRising aims to educate young girls and women about their rights and empower them.
+# PawsnClaws-Animal-Charity-Website
+The project involves the designing of a website called “PawsnClaws” which aims to promote charity for stray animals. The main features and functions of the website include donation option with RazorPay payment gateway, latest news regarding animal welfare, highlighting the main activities of the organization and spreading awareness via Internet.
